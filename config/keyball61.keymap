@@ -41,11 +41,11 @@
 
         number_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &trans
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans   &trans
+&kp  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp
+&kp  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp F12
+&kp  &kp     &kp     &kp     &kp     &kp     &kp  &kp  &kp     &kp     &kp     &kp     &kp      &kp
+&kp  &kp     &kp     &kp     &kp     &kp     &kp  &kp  &kp                             &kp      &kp
             >;
 
             label = "NUM";
@@ -76,11 +76,11 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &trans     &trans
+&kp  &kp       &kp       &kp     &kp        &kp            &kp            &kp        &kp        &kp        &kp        &kp
+&kp  &kp       &kp       &kp     &kp        &kp            &kp            &kp        &kp        &kp        &kp        &kp
+&kp  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp            &kp PAGE_UP    &mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp MCLK  &kp
+&kp  &kp       &kp       &kp     &kp        &kp  &kp  &kp  &kp PAGE_DOWN  &kp        &kp        &kp        &kp        &kp
+&kp  &kp       &kp       &kp     &kp        &kp  &kp  &kp  &mo 3                                           &kp        &kp
             >;
         };
     };
