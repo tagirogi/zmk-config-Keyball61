@@ -25,13 +25,6 @@
 };
 
 / {
-  input_listeners {
-    my_pointing_listener: my_pointing_listener {
-      // Layer5が有効な間、感度を2倍にする
-      layers = <5>;
-      input-processors = <&zip_xy_scaler 2 1>;
-    };
-  };
     keymap {
         compatible = "zmk,keymap";
 
