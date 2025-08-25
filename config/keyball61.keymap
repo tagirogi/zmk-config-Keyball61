@@ -79,7 +79,7 @@
 &trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans          &trans           &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans          &trans           &trans     &trans     &trans
 &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &msc MOVE_Y(5)   &mkp LCLK       &mkp RCLK        &mkp MCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &msc MOVE_Y(-5)  &msc MOVE_X(5)  &msc MOVE_X(-5)  &trans     &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &trans  &tog 5  &msc MOVE_Y(-5)  &msc MOVE_X(5)  &msc MOVE_X(-5)  &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                                                       &trans     &trans
             >;
         };
@@ -89,7 +89,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
