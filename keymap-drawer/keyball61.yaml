@@ -139,9 +139,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+HOME
-  - PgDn
-  - $$mdi:arrow-up-bold$$
   - PG UP
+  - $$mdi:arrow-up-bold$$
+  - PG DN
   - Ctl+END
   - '~'
   - '|'
