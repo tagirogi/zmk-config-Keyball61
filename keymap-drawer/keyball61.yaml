@@ -2,16 +2,16 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: Alt+Ctl+1, s: Alt+Ctl+!}
+  - {t: Alt+Ctl+2, s: Alt+Ctl+@}
+  - {t: Alt+Ctl+3, s: Alt+Ctl+#}
+  - {t: Ctl+Alt+4, s: Ctl+Alt+$}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
@@ -26,19 +26,19 @@ layers:
   - P
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
-  - {t: '$$mdi:apple-keyboard-option$$', h: A}
+  - A
   - S
   - D
   - F
   - G
   - H
-  - {t: J, h: '$$mdi:backspace$$'}
+  - J
   - K
   - L
   - {t: '-', s: _}
   - ':'
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Z}
+  - Z
   - X
   - C
   - V
@@ -53,8 +53,8 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-tab$$', h: LEFT WIN}
+  - LEFT WIN
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: LANGUAGE 1, h: NUM}
