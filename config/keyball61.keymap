@@ -47,8 +47,6 @@
 &trans  &kp HOME      &kp DOWN           &kp DOWN       &kp RIGHT      &kp END                                &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans  &kp LA(LEFT)  &kp LC(PAGE_DOWN)  &kp RC(PG_UP)  &kp LA(RIGHT)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans  &trans        &trans             &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
-            &msc SCRL_UP    &msc SCRL_DOWN
-            &msc SCRL_LEFT  &msc SCRL_RIGHT
 >;
         };
 
