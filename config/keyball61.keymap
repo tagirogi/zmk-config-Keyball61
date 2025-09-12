@@ -86,7 +86,7 @@
 
         mouse_layer {
             label = "MOUSE";
-            sensor-bindings = <&mmv MOVE_X MOVE_Y>;  // ←切替
+            sensor-bindings = <&mmv MOVE_X MOVE_Y>;
             bindings = <
 &trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans          &trans           &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans                  &mmv MOVE_UP     &trans          &trans           &trans     &trans     &trans
