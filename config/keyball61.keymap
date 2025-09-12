@@ -41,7 +41,6 @@
 
         symbol_layer {
             label = "SYM";
-            sensor-bindings = <&msc SCRL_X SCRL_Y>; 
             bindings = <
 &trans  &trans        &trans             &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
 &trans  &kp LC(HOME)  &kp PG_UP          &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
@@ -86,7 +85,6 @@
 
         mouse_layer {
             label = "MOUSE";
-            sensor-bindings = <&mmv MOVE_X MOVE_Y>;
             bindings = <
 &trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans          &trans           &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans                  &mmv MOVE_UP     &trans          &trans           &trans     &trans     &trans
