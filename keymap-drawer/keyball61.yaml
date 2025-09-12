@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Alt+Ctl+1, s: Alt+Ctl+!}
   - {t: Alt+Ctl+2, s: Alt+Ctl+@}
   - {t: Alt+Ctl+3, s: Alt+Ctl+#}
