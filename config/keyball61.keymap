@@ -47,7 +47,7 @@
 &trans  &kp HOME      &kp DOWN           &kp DOWN       &kp RIGHT      &kp END                                &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans  &kp LA(LEFT)  &kp LC(PAGE_DOWN)  &kp RC(PG_UP)  &kp LA(RIGHT)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans  &trans        &trans             &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
->;
+            >;
         };
 
         layer_5 {
@@ -72,15 +72,14 @@
             label = "NUM";
         };
 
-
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans           &trans          &trans           &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &mmv MOVE_UP     &trans          &trans           &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &msc MOVE_Y(10)  &mkp LCLK       &mkp RCLK        &mkp MCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &tog 2  &msc MOVE_Y(-5)  &msc MOVE_X(5)  &msc MOVE_X(-5)  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                                                       &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans                  &trans  &trans     &trans           &trans     &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans                  &trans  &trans     &trans           &trans     &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &trans  &mkp LCLK  &mkp RCLK        &mkp MCLK  &mkp MCLK  &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &trans  &tog 2  &trans  &trans     &msc MOVE_X(-5)  &trans     &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                                         &trans     &trans
             >;
         };
     };
