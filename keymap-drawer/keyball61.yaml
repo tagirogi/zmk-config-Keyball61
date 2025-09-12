@@ -6,7 +6,7 @@ layers:
   - {t: Alt+Ctl+2, s: Alt+Ctl+@}
   - {t: Alt+Ctl+3, s: Alt+Ctl+#}
   - {t: Ctl+Alt+4, s: Ctl+Alt+$}
-  - N
+  - Alt+Ctl+N
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -76,10 +76,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:keyboard-tab$$
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - {t: '0', s: )}
+  - '1'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - '%'
   - ^
   - '&'
@@ -89,9 +89,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
   - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
@@ -101,9 +101,9 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - F2
-  - F3
-  - F4
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - F5
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
