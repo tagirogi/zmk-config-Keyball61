@@ -50,7 +50,7 @@
             >;
         };
 
-        layer_5 {
+        scroll {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -58,6 +58,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
+
+            label = "scroll";
         };
 
         number_layer {
@@ -80,16 +82,6 @@
 &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp MCLK  &trans
 &trans  &trans    &trans    &trans  &trans     &trans  &trans  &tog 2  &trans  &trans     &trans     &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                                   &trans     &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
