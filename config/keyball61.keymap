@@ -10,22 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-/ {
-    /* --- ビヘイビア定義 --- */
-    behaviors {
-        // トラックボールをカーソル移動に使う
-        mouse_move: mouse_move {
-            compatible = "zmk,behavior-sensor-rotate";
-            bindings = <&mmv REL_X REL_Y>;
-        };
-
-        // トラックボールをスクロールに使う
-        mouse_scroll: mouse_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            bindings = <&msc SCRL_X SCRL_Y>;
-        };
-    };
-
 &lt {
     tapping-term-ms = <150>;
     flavor = "balanced";
@@ -44,7 +28,6 @@
 
         default_layer {
             label = "QWRT";
-            sensor-bindings = <&mouse_move>;     // ✅ MOUSE レイヤーはカーソル移動
             bindings = <
 &kp ESC         &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LA(LC(N3))    &kp LC(LA(N4))        &kp LA(LC(N))                               &trans                &trans  &trans     &trans   &bt BT_NXT   &bootloader
 &kp TAB         &kp Q           &kp W           &kp E             &kp R                 &kp T                                       &kp Y                 &kp U   &kp I      &kp O    &kp P        &kp APOS
@@ -56,7 +39,6 @@
 
         scroll_layer {
             label = "SCROLL";
-            sensor-bindings = <&mouse_scroll>;   // ✅ ベースはスクロール
             bindings = <
 &trans  &trans        &trans             &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
 &trans  &kp LC(HOME)  &kp PG_UP          &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
@@ -76,6 +58,7 @@
 &trans       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0     &kp BACKSPACE  &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp N9      &kp N0       &kp F11
 &trans       &trans  &trans  &trans  &trans  &kp ENTER  &trans         &trans  &kp ENTER                                                 &trans       &kp F12
             >;
+            trackball-bindings = <&mkp SCROLL>;
         };
 
         mouse_layer {
@@ -87,6 +70,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
             >;
+        };
+        };
+
+        behaviors {
+        // レイヤー1をアクティブにする動作
+        scroll_tog: scroll_toggle {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "SCROLL_TOGGLE";
+            #binding-cells = <1>;
+            flavor = "toggle";
         };
     };
 };
