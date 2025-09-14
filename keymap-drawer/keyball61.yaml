@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Alt+Ctl+1, s: Alt+Ctl+!}
   - {t: Alt+Ctl+2, s: Alt+Ctl+@}
   - {t: Alt+Ctl+3, s: Alt+Ctl+#}
@@ -52,7 +52,7 @@ layers:
   - {t: /, s: '?'}
   - {t: ;, s: ':'}
   - $$mdi:progress-download$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-control$$'}
