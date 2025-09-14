@@ -58,7 +58,6 @@
 &trans       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0     &kp BACKSPACE  &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp N9      &kp N0       &kp F11
 &trans       &trans  &trans  &trans  &trans  &kp ENTER  &trans         &trans  &kp ENTER                                                 &trans       &kp F12
             >;
-            trackball-bindings = <&mkp SCROLL>;
         };
 
         mouse_layer {
@@ -70,16 +69,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
             >;
-        };
-        };
-
-        behaviors {
-        // レイヤー1をアクティブにする動作
-        scroll_tog: scroll_toggle {
-            compatible = "zmk,behavior-toggle-layer";
-            label = "SCROLL_TOGGLE";
-            #binding-cells = <1>;
-            flavor = "toggle";
         };
     };
 };
