@@ -46,7 +46,6 @@
 &trans  &kp LA(LEFT)  &kp LC(PAGE_DOWN)  &kp RC(PG_UP)  &kp LA(RIGHT)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans  &trans        &trans             &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
             >;
-            sensors = <&mouse_scroll>;
         };
 
         number_layer {
