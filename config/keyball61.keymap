@@ -1,7 +1,10 @@
 #define DEFAULT 0
-#define SCROLL  1
+#define SYM  1
 #define NUM     2
-#define MOUSE   3
+#define TRA     3
+#define MOUSE   4
+#define SCROLL   5
+
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -38,7 +41,7 @@
         };
 
         scroll_layer {
-            label = "SCROLL";
+            label = "SYM";
             bindings = <
 &trans  &trans        &trans             &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
 &trans  &kp LC(HOME)  &kp PG_UP          &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
@@ -60,7 +63,29 @@
         };
 
         mouse_layer {
+            label = "TRA";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
+            >;
+        };
+
+        mouse_layer {
             label = "MOUSE";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
+            >;
+        };
+
+        mouse_layer {
+            label = "SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
