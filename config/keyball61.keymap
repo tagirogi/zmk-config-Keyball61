@@ -35,7 +35,7 @@
 &kp TAB         &kp Q           &kp W           &kp E             &kp R                 &kp T                                       &kp Y                 &kp U   &kp I      &kp O    &kp P        &kp APOS
 &kp BSPC        &kp A           &kp S           &kp D             &kp F                 &kp G                                       &kp H                 &kp J   &kp K      &kp L    &kp MINUS    &kp EQUAL
 &kp LEFT_SHIFT  &kp Z           &kp X           &kp C             &kp V                 &kp B          &lt 0 ESC         &kp B      &kp N                 &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp SEMI
-&bootloader     &kp LEFT_ALT    &kp LEFT_WIN    &mt LEFT_ALT TAB  &mt LCTRL LANGUAGE_2  &lt 1 SPACE    &lt 2 LANGUAGE_1  &lt 3 TAB  &mt LEFT_SHIFT ENTER                              &bootloader  &bt BT_NXT
+&bootloader     &kp LEFT_ALT    &kp LEFT_WIN    &mt LEFT_ALT TAB  &mt LCTRL LANGUAGE_2  &lt 5 SPACE    &lt 2 LANGUAGE_1  &lt 3 TAB  &mt LEFT_SHIFT ENTER                              &bootloader  &bt BT_NXT
             >;
         };
 
@@ -86,11 +86,11 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                   &trans  &trans
+&trans  &trans        &trans             &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
+&trans  &kp LC(HOME)  &kp PG_UP          &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp HOME      &kp DOWN           &kp DOWN       &kp RIGHT      &kp END                                &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp LA(LEFT)  &kp LC(PAGE_DOWN)  &kp RC(PG_UP)  &kp LA(RIGHT)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &trans        &trans             &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
             >;
         };
     };
