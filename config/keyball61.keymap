@@ -1,6 +1,6 @@
 #define DEFAULT 0
 #define SCROLL  1
-#define FUN     2
+#define NUM     2
 #define MOUSE   3
 
 #include <behaviors/mouse_keys.dtsi>
