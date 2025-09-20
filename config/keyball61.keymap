@@ -86,11 +86,11 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans        &trans             &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
-&trans  &kp LC(HOME)  &kp PG_UP          &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp HOME      &kp DOWN           &kp DOWN       &kp RIGHT      &kp END                                &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &kp LA(LEFT)  &kp LC(PAGE_DOWN)  &kp RC(PG_UP)  &kp LA(RIGHT)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans  &trans        &trans             &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
+&trans  &trans        &trans          &trans         &trans         &trans                                 &trans     &trans         &trans             &trans                &trans                 &trans
+&trans  &kp LC(HOME)  &kp PG_UP       &kp UP_ARROW   &kp PG_DN      &kp LC(END)                            &kp TILDE  &kp PIPE       &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp HOME      &kp LEFT_ARROW  &kp DOWN       &kp RIGHT      &kp END                                &kp EQUAL  &kp SEMICOLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp LA(LEFT)  &kp LA(RIGHT)   &kp RC(PG_UP)  &kp LC(PG_DN)  &trans       &kp BACKSPACE  &kp GRAVE  &kp PLUS   &kp COLON      &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &trans        &trans          &trans         &trans         &trans       &kp ENTER      &trans     &trans                                                             &trans                 &trans
             >;
         };
     };
