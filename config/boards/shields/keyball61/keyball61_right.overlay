@@ -113,8 +113,6 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
- x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <2>;  // 2倍の感度（1-5の範囲で調整）
         scale-divisor = <1>;
   };
