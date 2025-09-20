@@ -52,7 +52,7 @@ layers:
   - {t: /, s: '?'}
   - {t: ;, s: ':'}
   - $$mdi:progress-download$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - LEFT WIN
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-control$$'}
