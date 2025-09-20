@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - .
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -50,7 +50,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - $$mdi:apple-keyboard-command$$
   - LEFT WIN
