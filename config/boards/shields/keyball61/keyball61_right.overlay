@@ -113,7 +113,5 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-        scale-multiplier = <2>;  // 2倍の感度（1-5の範囲で調整）
-        scale-divisor = <1>;
   };
 };
