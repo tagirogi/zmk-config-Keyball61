@@ -342,7 +342,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - END
   - {t: '=', s: +}
-  - {t: ;, s: ':'}
+  - ':'
   - '"'
   - '{'
   - '}'
@@ -356,7 +356,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '`', s: '~'}
   - +
-  - ':'
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
