@@ -337,7 +337,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - END
@@ -349,9 +349,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-left-bold$$
-  - Ctl+PgDn
-  - Ctl+PG UP
   - Alt+$$mdi:arrow-right-bold$$
+  - Ctl+PG UP
+  - Ctl+PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '`', s: '~'}
