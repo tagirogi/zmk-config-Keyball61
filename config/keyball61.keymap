@@ -32,7 +32,7 @@
             label = "QWRT";
             bindings = <
 &bootloader     &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LA(LC(N3))    &kp LC(LA(N4))        &kp LA(LC(N))                               &trans                &trans  &trans    &trans    &bt BT_NXT  &bootloader
-&kp TAB         &kp Q           &kp W           &kp E             &kp R                 &kp T                                       &kp Y                 &kp U   &kp I     &kp O     &kp P       &trans
+&kp TAB         &kp Q           &kp W           &kp E             &kp R                 &kp T                                       &kp Y                 &kp U   &kp I     &kp O     &kp P       &kp PERIOD
 &kp BSPC        &kp A           &kp S           &kp D             &kp F                 &kp G                                       &kp H                 &kp J   &kp K     &kp L     &kp MINUS   &kp COMMA
 &kp LEFT_SHIFT  &kp Z           &kp X           &kp C             &kp V                 &kp B          &lt 0 ESC         &kp B      &kp N                 &kp M   &mkp MB1  &mkp MB2  &kp FSLH    &kp PERIOD
 &trans          &kp LEFT_GUI    &kp LEFT_WIN    &mt LEFT_ALT TAB  &mt LCTRL LANGUAGE_2  &lt 5 SPACE    &lt 2 LANGUAGE_1  &lt 3 TAB  &mt LEFT_SHIFT ENTER                              &trans      &trans
