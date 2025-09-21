@@ -47,8 +47,8 @@ layers:
   - B
   - N
   - M
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: ',', s: <}
+  - .
   - {t: /, s: '?'}
   - .
   - {t: '$$mdi:transfer$$', type: trans}
