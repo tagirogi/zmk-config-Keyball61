@@ -25,6 +25,20 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <31 32>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
