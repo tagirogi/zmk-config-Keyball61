@@ -1,7 +1,7 @@
 #define DEFAULT 0
+#define MOUSE   1
 #define NUM     2
 #define TRA     3
-#define MOUSE   1
 #define SCROLL  4
 
 #include <behaviors/mouse_keys.dtsi>
@@ -52,6 +52,17 @@
             >;
         };
 
+        mouse_layer {
+            label = "MOUSE";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
+            >;
+        };
+
         number_layer {
             label = "NUM";
             bindings = <
@@ -74,16 +85,7 @@
             >;
         };
 
-        mouse_layer {
-            label = "MOUSE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkp MB1  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
-            >;
-        };
+
 
         scroll_layer {
             label = "SCROLL";
