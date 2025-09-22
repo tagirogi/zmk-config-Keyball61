@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - {t: ',', s: <}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -47,7 +47,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
+  - {t: ',', h: SCROLL, s: <}
   - .
   - {t: /, s: '?'}
   - .
@@ -357,7 +357,7 @@ layers:
   - {t: '`', s: '~'}
   - +
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', s: '"', type: held}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -366,7 +366,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
