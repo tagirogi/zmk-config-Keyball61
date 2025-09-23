@@ -51,7 +51,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - .
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:apple-keyboard-command$$
   - LEFT WIN
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
