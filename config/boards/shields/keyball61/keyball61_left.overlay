@@ -7,6 +7,15 @@
 #include "keyball61.dtsi"
 #include <input/processors.dtsi>
 
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 5 10000>;
+    };
+};
+
 &kscan0 {
 	row-gpios
         = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
