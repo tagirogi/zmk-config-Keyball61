@@ -8,10 +8,10 @@ layers:
   - {t: Ctl+Alt+4, s: Ctl+Alt+$}
   - Alt+Ctl+N
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - $$mdi:progress-download$$
   - $$mdi:keyboard-tab$$
   - Q
