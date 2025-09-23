@@ -5,6 +5,7 @@
  */
 
 #include "keyball61.dtsi"
+#include <input/processors.dtsi>
 
 &kscan0 {
 	row-gpios
