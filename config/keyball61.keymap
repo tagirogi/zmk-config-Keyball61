@@ -5,7 +5,6 @@
 #define SCROLL  4
 
 #include <behaviors/mouse_keys.dtsi>
-#include <input/processors.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
