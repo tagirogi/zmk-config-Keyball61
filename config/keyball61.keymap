@@ -3,7 +3,6 @@
 #define NUM     2
 #define TRA     3
 #define SCROLL  4
-)
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
