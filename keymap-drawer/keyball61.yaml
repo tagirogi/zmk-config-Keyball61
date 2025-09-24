@@ -290,7 +290,7 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+PG UP
   - Ctl+PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '`', s: '~'}
   - +
