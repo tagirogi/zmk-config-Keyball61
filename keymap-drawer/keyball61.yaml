@@ -291,7 +291,7 @@ layers:
   - Ctl+PG UP
   - Ctl+PG DN
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '`', s: '~'}
   - +
   - {t: ;, s: ':'}
