@@ -88,11 +88,11 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans        &trans          &trans         &trans         &trans                              &trans     &trans     &trans             &trans                &trans                 &trans
-&trans  &kp LC(HOME)  &msc SCRL_DOWN  &kp UP_ARROW   &msc SCRL_UP   &kp LC(END)                         &kp TILDE  &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp HOME      &kp LEFT_ARROW  &kp DOWN       &kp RIGHT      &kp END                             &kp EQUAL  &kp COLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &kp LA(LEFT)  &kp LA(RIGHT)   &kp RC(PG_UP)  &kp LC(PG_DN)  &kp INSERT   &kp DELETE  &kp GRAVE  &kp PLUS   &kp SEMI   &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans  &trans        &trans          &trans         &trans         &trans       &kp ENTER   &trans     &trans                                                         &trans                 &trans
+&trans  &trans        &trans            &trans         &trans           &trans                              &trans     &trans     &trans             &trans                &trans                 &trans
+&trans  &kp LC(HOME)  &msc MOVE_Y(-10)  &kp UP_ARROW   &msc MOVE_Y(10)  &kp LC(END)                         &kp TILDE  &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp HOME      &kp LEFT_ARROW    &kp DOWN       &kp RIGHT        &kp END                             &kp EQUAL  &kp COLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp LA(LEFT)  &kp LA(RIGHT)     &kp RC(PG_UP)  &kp LC(PG_DN)    &kp INSERT   &kp DELETE  &kp GRAVE  &kp PLUS   &kp SEMI   &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &trans        &trans            &trans         &trans           &trans       &kp ENTER   &trans     &trans                                                         &trans                 &trans
             >;
         };
     };
