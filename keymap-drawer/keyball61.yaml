@@ -11,7 +11,7 @@ layers:
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-down-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:progress-download$$
   - $$mdi:keyboard-tab$$
   - Q
@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-esc$$', h: QWRT}
+  - {t: '$$mdi:keyboard-return$$', h: QWRT}
   - B
   - N
   - M
@@ -52,9 +52,9 @@ layers:
   - {t: /, s: '?'}
   - .
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - LEFT WIN
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: LANGUAGE 1, h: NUM}
@@ -290,7 +290,7 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+PG UP
   - Ctl+PG DN
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ins
   - $$mdi:backspace-reverse-outline$$
   - {t: '`', s: '~'}
   - +
