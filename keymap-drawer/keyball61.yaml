@@ -263,9 +263,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+HOME
-  - PG UP
+  - $$mdi:pan-up$$
   - $$mdi:arrow-up-bold$$
-  - PG DN
+  - $$mdi:pan-down$$
   - Ctl+END
   - '~'
   - '|'
