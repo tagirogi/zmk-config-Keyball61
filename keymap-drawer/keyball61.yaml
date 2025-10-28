@@ -6,7 +6,7 @@ layers:
   - {t: Alt+Ctl+2, s: Alt+Ctl+@}
   - {t: Alt+Ctl+3, s: Alt+Ctl+#}
   - {t: Ctl+Alt+4, s: Ctl+Alt+$}
-  - Alt+Ctl+N
+  - Ctl+Sft+N
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-up-bold$$
