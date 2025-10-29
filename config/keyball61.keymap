@@ -77,11 +77,11 @@
         trans_layer {
             label = "TRA";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans            &trans       &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans            &trans       &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LG(LC(RIGHT))  &kp LG(D)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans             &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                    &trans     &trans
             >;
         };
 
