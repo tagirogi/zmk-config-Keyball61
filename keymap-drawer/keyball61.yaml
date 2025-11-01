@@ -263,9 +263,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+HOME
-  - '&msc MOVE_Y(-10)'
+  - '&msc MOVE_Y(-20)'
   - $$mdi:arrow-up-bold$$
-  - '&msc MOVE_Y(10)'
+  - '&msc MOVE_Y(20)'
   - Ctl+END
   - '~'
   - '|'
