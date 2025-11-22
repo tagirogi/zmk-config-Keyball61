@@ -205,11 +205,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+F4
+  - W
+  - Alt+$$mdi:keyboard-tab$$
+  - Ctl+T
+  - Ctl+Sft+T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -221,7 +221,8 @@ layers:
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:keyboard-tab$$
   - Gui+Ctl+$$mdi:arrow-right-bold$$
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - PG UP
+  - Ctl++
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,13 +231,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+PG UP
+  - Ctl+PgDn
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
+  - PgDn
+  - {t: Ctl+-, s: Ctl+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -263,9 +263,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+HOME
-  - '&msc MOVE_Y(-20)'
-  - $$mdi:arrow-up-bold$$
   - '&msc MOVE_Y(20)'
+  - $$mdi:arrow-up-bold$$
+  - '&msc MOVE_Y(-20)'
   - Ctl+END
   - '~'
   - '|'
