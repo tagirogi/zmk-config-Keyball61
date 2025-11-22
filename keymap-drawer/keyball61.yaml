@@ -51,7 +51,7 @@ layers:
   - .
   - {t: /, s: '?'}
   - .
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -138,11 +138,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:keyboard-tab$$
+  - F7
   - F2
   - Gui+Ctl+$$mdi:arrow-left-bold$$
-  - Gui+$$mdi:keyboard-tab$$
-  - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - F7
+  - Gui+Ctl+$$mdi:keyboard-tab$$
+  - Gui+Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
