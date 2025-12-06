@@ -7,7 +7,7 @@ layers:
   - {t: Alt+Ctl+3, s: Alt+Ctl+#}
   - {t: Ctl+Alt+4, s: Ctl+Alt+$}
   - Ctl+Sft+N
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWRT, h: toggle}
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-down-bold$$
@@ -53,9 +53,9 @@ layers:
   - .
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  - LEFT WIN
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: LANGUAGE 1, h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: TRA}
