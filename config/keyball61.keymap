@@ -44,7 +44,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&bootloader     &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LA(LC(N3))       &kp LC(LA(N4))        &kp LC(LS(N))                               &trans                &kp LG(LEFT_ARROW)  &kp LG(UP)   &kp LG(DOWN_ARROW)  &bt BT_NXT  &bootloader
+&bootloader     &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LA(LC(N3))       &kp LC(LA(N4))        &kp LC(LS(N))                               &to 5                 &kp LG(LEFT_ARROW)  &kp LG(UP)   &kp LG(DOWN_ARROW)  &bt BT_NXT  &bootloader
 &kp TAB         &kp Q           &kp W           &kp E                &kp R                 &kp T                                       &kp Y                 &kp U               &kp I        &kp O               &kp P       &kp PERIOD
 &kp BSPC        &kp A           &kp S           &kp D                &kp F                 &kp G                                       &kp H                 &kp J               &kp K        &kp L               &kp MINUS   &kp BACKSPACE
 &kp LEFT_SHIFT  &kp Z           &kp X           &kp C                &kp V                 &kp B          &lt 0 ENTER       &kp B      &kp N                 &kp M               &lt 4 COMMA  &kp PERIOD          &kp FSLH    &kp PERIOD
@@ -93,6 +93,17 @@
 &trans  &kp HOME      &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp END                             &kp EQUAL  &kp COLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans  &kp LA(LEFT)  &kp LA(RIGHT)    &kp RC(PG_UP)  &kp LC(PG_DN)     &kp INSERT   &kp DELETE  &kp GRAVE  &kp PLUS   &kp SEMI   &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans  &trans        &trans           &trans         &trans            &trans       &kp ENTER   &trans     &trans                                                         &trans                 &trans
+            >;
+        };
+
+        layer_5 {
+            label = "QWRT";
+            bindings = <
+&bootloader     &kp LA(LC(N1))  &kp LA(LC(N2))  &kp LA(LC(N3))       &kp LC(LA(N4))               &kp LC(LS(N))                               &to 0                 &kp LG(LEFT_ARROW)  &kp LG(UP)   &kp LG(DOWN_ARROW)  &bt BT_NXT  &bootloader
+&kp TAB         &kp Q           &kp W           &kp E                &kp R                        &kp T                                       &kp Y                 &kp U               &kp I        &kp O               &kp P       &kp PERIOD
+&kp BSPC        &kp A           &kp S           &kp D                &kp F                        &kp G                                       &kp H                 &kp J               &kp K        &kp L               &kp MINUS   &kp BACKSPACE
+&kp LEFT_SHIFT  &kp Z           &kp X           &kp C                &kp V                        &kp B          &lt 0 ENTER       &kp B      &kp N                 &kp M               &lt 4 COMMA  &kp PERIOD          &kp FSLH    &kp PERIOD
+&trans          &kp LCTRL       &kp LCTRL       &mt LEFT_ALT ESCAPE  &mt LEFT_COMMAND LANGUAGE_2  &lt 4 SPACE    &lt 2 LANGUAGE_1  &lt 3 TAB  &mt LEFT_SHIFT ENTER                                                       &trans      &trans
             >;
         };
     };
