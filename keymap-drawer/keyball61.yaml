@@ -262,11 +262,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+HOME
+  - Gui+$$mdi:arrow-up-bold$$
   - '&msc MOVE_Y(20)'
   - $$mdi:arrow-up-bold$$
   - '&msc MOVE_Y(-20)'
-  - Ctl+END
+  - Gui+$$mdi:arrow-down-bold$$
   - '~'
   - '|'
   - {t: \, s: '|'}
@@ -274,11 +274,11 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - END
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: '=', s: +}
   - ':'
   - '"'
@@ -286,10 +286,10 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+$$mdi:arrow-left-bold$$
-  - Alt+$$mdi:arrow-right-bold$$
-  - Ctl+PG UP
-  - Ctl+PG DN
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
+  - Ctl+Sft+$$mdi:keyboard-tab$$
+  - Ctl+$$mdi:keyboard-tab$$
   - Ins
   - $$mdi:backspace-reverse-outline$$
   - {t: '`', s: '~'}
@@ -455,9 +455,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Q
   - Gui+W
-  - Alt+$$mdi:keyboard-tab$$
-  - Ctl+T
-  - Ctl+Sft+T
+  - Gui+$$mdi:keyboard-tab$$
+  - Gui+T
+  - Sft+Gui+T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
