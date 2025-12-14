@@ -105,7 +105,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-return$$', h: QWRT}
+  - {t: '$$mdi:keyboard-return$$', h: TRA}
   - B
   - N
   - M
@@ -118,10 +118,10 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: LANGUAGE 2, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: QWRT}
-  - {t: LANGUAGE 1, h: QWRT}
+  - {t: '$$mdi:keyboard-space$$', h: SCROLL}
+  - {t: LANGUAGE 1, h: NUM}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: QWRT}
+  - {t: '$$mdi:keyboard-return$$', h: TRA}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
@@ -353,7 +353,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+PG UP
   - Ctl+PgDn
