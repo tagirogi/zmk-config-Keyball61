@@ -59,7 +59,7 @@
 &kp TAB         &kp Q           &kp W           &kp E                &kp R                        &kp T                                                &kp Y        &kp U               &kp I        &kp O               &kp P       &kp PERIOD
 &kp BSPC        &kp A           &kp S           &kp D                &kp F                        &kp G                                                &kp H        &kp J               &kp K        &kp L               &kp MINUS   &kp BACKSPACE
 &kp LEFT_SHIFT  &kp Z           &kp X           &kp C                &kp V                        &kp B          &lt 0 ENTER       &kp B               &kp N        &kp M               &lt 4 COMMA  &kp PERIOD          &kp FSLH    &kp PERIOD
-&trans          &kp LCTRL       &kp LCTRL       &mt LEFT_ALT ESCAPE  &mt LEFT_COMMAND LANGUAGE_2  &lt 7 SPACE    &lt 6 LANGUAGE_1  &mt LEFT_SHIFT TAB  &lt 8 ENTER                                                       &trans      &trans
+&trans          &kp LCTRL       &kp LCTRL       &mt LEFT_ALT ESCAPE  &mt LEFT_COMMAND LANGUAGE_2  &lt 0 SPACE    &lt 0 LANGUAGE_1  &mt LEFT_SHIFT TAB  &lt 0 ENTER                                                       &trans      &trans
             >;
         };
 
@@ -104,39 +104,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans         &kp LC(LG(LEFT))   &kp LG(TAB)         &kp LG(LC(RIGHT))  &kp PG_UP      &kp LC(PLUS)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)      &kp PAGE_DOWN  &kp LC(MINUS)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                   &trans         &trans
-            >;
-        };
-
-        layer_6 {
-            label = "NUM_MAC";
-            bindings = <
-&trans       &trans  &trans  &trans              &trans        &trans                                &trans           &trans         &trans        &trans      &trans       &trans
-&kp LG(TAB)  &kp F7  &kp F2  &kp LC(LEFT_ARROW)  &kp LC(DOWN)  &kp LC(RIGHT)                         &trans           &trans         &trans        &trans      &trans       &trans
-&trans       &kp N1  &kp N2  &kp N3              &kp N4        &kp N5                                &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT  &trans
-&trans       &kp N6  &kp N7  &kp N8              &kp N9        &kp N0         &kp BACKSPACE  &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &trans      &trans       &trans
-&trans       &trans  &trans  &trans              &trans        &kp ENTER      &trans         &trans  &kp ENTER                                                 &trans       &trans
-            >;
-        };
-
-        layer_7 {
-            label = "SCROLL_MAC";
-            bindings = <
-&trans  &trans            &trans           &trans           &trans            &trans                                     &trans     &trans     &trans             &trans                &trans                 &trans
-&trans  &kp LG(UP_ARROW)  &msc MOVE_Y(20)  &kp UP_ARROW     &msc MOVE_Y(-20)  &kp LG(DOWN_ARROW)                         &kp TILDE  &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp LG(LEFT)      &kp LEFT_ARROW   &kp DOWN         &kp RIGHT         &kp LG(RIGHT)                              &kp EQUAL  &kp COLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &kp LG(LEFT)      &kp LG(RIGHT)    &kp RC(LS(TAB))  &kp LC(TAB)       &kp INSERT          &kp DELETE  &kp GRAVE  &kp PLUS   &kp SEMI   &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans  &trans            &trans           &trans           &trans            &trans              &kp ENTER   &trans     &trans                                                         &trans                 &trans
-            >;
-        };
-
-        layer_8 {
-            label = "TRA_MAC";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans              &trans         &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp LG(Q)        &kp LG(W)     &kp LG(TAB)         &kp LG(T)      &kp LS(LG(T))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &kp LC(LEFT)  &kp LC(UP_ARROW)    &kp LC(RIGHT)  &kp PG_UP      &kp LC(PLUS)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(TAB))  &kp LC(TAB)   &kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp PAGE_DOWN  &kp LC(MINUS)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans         &trans
             >;
         };
     };
