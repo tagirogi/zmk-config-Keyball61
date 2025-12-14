@@ -119,7 +119,7 @@
         };
 
         layer_7 {
-            label = "SCROLL";
+            label = "SCROLL_MAC";
             bindings = <
 &trans  &trans            &trans           &trans           &trans            &trans                                     &trans     &trans     &trans             &trans                &trans                 &trans
 &trans  &kp LG(UP_ARROW)  &msc MOVE_Y(20)  &kp UP_ARROW     &msc MOVE_Y(-20)  &kp LG(DOWN_ARROW)                         &kp TILDE  &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
