@@ -385,11 +385,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+$$mdi:keyboard-tab$$
+  - Gui+$$mdi:keyboard-tab$$
   - F7
   - F2
   - Ctl+$$mdi:arrow-left-bold$$
-  - Gui+Ctl+$$mdi:keyboard-tab$$
+  - Ctl+$$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
