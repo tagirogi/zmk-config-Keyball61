@@ -100,10 +100,43 @@
             label = "TRA";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans         &trans             &trans              &trans             &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp LA(F4)     &kp W              &kp LA(TAB)         &kp LC(T)          &kp LC(LS(T))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LA(F4)     &kp LC(W)          &kp LA(TAB)         &kp LC(T)          &kp LC(LS(T))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans         &kp LC(LG(LEFT))   &kp LG(TAB)         &kp LG(LC(RIGHT))  &kp PG_UP      &kp LC(PLUS)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT)      &kp PAGE_DOWN  &kp LC(MINUS)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                   &trans         &trans
+            >;
+        };
+
+        layer_6 {
+            label = "NUM_MAC";
+            bindings = <
+&trans       &trans  &trans  &trans              &trans           &trans                                &trans           &trans         &trans        &trans      &trans       &trans
+&kp LA(TAB)  &kp F7  &kp F2  &kp LC(LEFT_ARROW)  &kp LG(LC(TAB))  &kp LC(RIGHT)                         &trans           &trans         &trans        &trans      &trans       &trans
+&trans       &kp N1  &kp N2  &kp N3              &kp N4           &kp N5                                &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT  &trans
+&trans       &kp N6  &kp N7  &kp N8              &kp N9           &kp N0         &kp BACKSPACE  &trans  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &trans      &trans       &trans
+&trans       &trans  &trans  &trans              &trans           &kp ENTER      &trans         &trans  &kp ENTER                                                 &trans       &trans
+            >;
+        };
+
+        layer_7 {
+            label = "SCROLL";
+            bindings = <
+&trans  &trans        &trans           &trans         &trans            &trans                              &trans     &trans     &trans             &trans                &trans                 &trans
+&trans  &kp LC(HOME)  &msc MOVE_Y(20)  &kp UP_ARROW   &msc MOVE_Y(-20)  &kp LC(END)                         &kp TILDE  &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp HOME      &kp LEFT_ARROW   &kp DOWN       &kp RIGHT         &kp END                             &kp EQUAL  &kp COLON  &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp LA(LEFT)  &kp LA(RIGHT)    &kp RC(PG_UP)  &kp LC(PG_DN)     &kp INSERT   &kp DELETE  &kp GRAVE  &kp PLUS   &kp SEMI   &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &trans        &trans           &trans         &trans            &trans       &kp ENTER   &trans     &trans                                                         &trans                 &trans
+            >;
+        };
+
+        layer_8 {
+            label = "TRA_MAC";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans              &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LG(Q)        &kp LG(W)     &kp LA(TAB)         &kp LC(T)      &kp LC(LS(T))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &kp LC(LEFT)  &kp LC(UP_ARROW)    &kp LC(RIGHT)  &kp PG_UP      &kp LC(PLUS)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(TAB))  &kp LC(TAB)   &kp LG(LEFT_ARROW)  &kp LG(RIGHT)  &kp PAGE_DOWN  &kp LC(MINUS)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans         &trans
             >;
         };
     };
