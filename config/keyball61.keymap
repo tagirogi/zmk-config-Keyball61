@@ -3,6 +3,7 @@
 #define NUM     2
 #define TRA     3
 #define SCROLL  4
+#define SNIPE   5 // Snipe Mode Layer
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
